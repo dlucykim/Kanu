@@ -1,0 +1,144 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') 
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size:16px;
+    scroll-behavior: smooth;
+    font-weight: normal;
+    font-style: normal;
+}
+
+section{
+    position: relative;
+}
+
+.bold{
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding-bottom:20px;
+}
+
+.logo{
+    text-align: center;
+}
+
+a{
+    color:#333;
+}
+.container-wrap{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* TEXT AREA */
+
+.text-center{
+    text-align: center;
+}
+
+.centered{
+    text-align: center;
+    justify-content: center;
+}
+.kanu-title{
+    font-size: 2rem;
+    font-weight: 200;
+    color: chocolate;
+    margin:60px;
+}
+.d-row{
+    display: flex;
+}
+.w-25{
+    width: 25%;
+}
+.w-33{
+    width: 33%;
+}
+.w-50{
+    width: 50%;
+}
+.w-100{
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.font{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+    color:#333;
+    padding-bottom:80px;
+}
+
+.kanu-color{
+    color: #de0b19 !important;
+}
+
+.tamanho{
+ font-size:1.2rem;
+}
+.padding-commons{
+    padding: 100px 0 !important;
+}
+img{
+    width: 100%;
+}
+
+.pad50{
+    padding-top:50px;
+    
+}
+.pad30{
+    padding-bottom:80px;
+}
+
+.pad51{
+  
+    font-size: 1.5rem;
+    color: #de0b19;
+    position:absolute;
+    top:100%;
+
+}
+.pad100{
+    padding-top: 80px;
+    
+}
+
+.pad101{
+    padding-bottom:80px;
+}
+
+.padzero{
+    padding:0;
+    margin:0;
+}
+/* >>>>>>>>MEDIO JQ */
+
+@media(max-width:1600px){
+    .container-wrap{
+        width: 100%;
+    }
+}
+
+
+@media(max-width:900px){
+ 
+ 
+}
