@@ -25,9 +25,6 @@ const swiper = new Swiper('.swiper', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-
-  
-
     },
   });
 
@@ -48,36 +45,4 @@ $(window).load(function() {
 
 
 
-
-
-
-// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-//   window.addEventListener('nav',function (){
-//       let header = document.querySelector('header');
-//        let windowPosition = window.scrollY > 0;
-//       header.classList.toggle('scrolling-active');
-//   })
-
-
-// const header=document.querySelector("header");
-// const sectionOne = document.querySelector("nav");
-
-// const sectionOneOptions = {
-//     rootMargin: "-200px 0px 0px 9px"
-// };
-// const sectionOneObserver = new IntersectionObserver(function(
-//     entries,
-//      sectionOneOptions
-// ) {
-//     entries.forEach(entry => {
-//        if (entry.isIntersecting){
-//         header.classList.add("nav-scrolled");
-//        }else{
-//            header.classList.remove("nav-scrolled");
-//        }
-//     });
-//     },
-// sectionOneOptions);
-
-// sectionOneObserver.observe (sectionOne);
 
